@@ -1,0 +1,18 @@
+select char(65)
+select nchar(65)
+select ascii('a')
+select str(65)+'nitin'
+select charindex('n','nitin gipta shyamnand',1)
+select concat('niitn',' ','kamlesh')
+select 'nitin'+' '+'gupta'
+select CONCAT_WS('_','abdul','kalam','shaikh')
+select datalength('nitinguptashyamanand')
+select len('nitinguptashyamanand')
+select DIFFERENCE('nitin','tin')
+select format(123456789,'###/###/###')
+select substring('abdul kalam shaikh',2,6)
+select PATINDEX('%b%','abdul kalam shaikh')
+select quotename('abcd','{}')
+select replace('abdul kalam shaikh','a','n')
+select replicate('a',10)
+select stuff('www.google.com',1,3,'nitin')
